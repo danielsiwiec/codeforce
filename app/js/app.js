@@ -25,7 +25,8 @@ codeforceApp.config(['$routeProvider',
             }).
             when('/jedi/:stackId', {
                 templateUrl: 'partials/jedi-detail.html',
-                controller: 'JediDetailController'
+                controller: 'JediDetailController',
+                title: 'Jedi\'s details'
             }).
             otherwise({
                 redirectTo: '/need'
