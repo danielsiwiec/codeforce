@@ -1,12 +1,16 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="../app/css/app.css"/>
+</head>
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-10">
             <!--Body content-->
 			<div class="core-header-panel">
             <div class="core-toolbar" id="core_toolbar">
-				<div id="menu-icon"></div>
+				<div id="menu-icon"><img src = "../app/img/menu-icon.png"/></div>
 				<div id="title">CodeForce</div>
 			</div>
+			<div class="core-toolbar-border"></div>
 			<form class="simple-form">
 				<div class="form-group">
 					<div class="row form-element">
@@ -19,8 +23,8 @@
 					</div>
 					<div class="small-6 large-centered columns">
 						<ul class="button-group round">
-							<button class="small alert button" ng-click="unpaid()">HEART</button>
-							<button class="small alert button" ng-click="paid()">MONEY</button>
+							<button id="heart-button" ng-click="unpaid()"></button>
+							<button id="dollar-button" ng-click="paid()"></button>
 						</ul>
 					</div>
 				</div>
