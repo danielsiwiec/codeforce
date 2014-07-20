@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <div>
+      <form>
+          <input type="radio" name="view" value="list">List
+          <input type="radio" name="view" value="map">Map
+      </form>
+  </div>
+
+    <div class="row">
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul>
+        <li ng-repeat="match in matches[0]"
+            class="thumbnail phone-listing">
+          <!--<a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>-->
+          <!--<a href="#/phones/{{phone.id}}">{{phone.name}}</a>-->
+          <!--<p>{{phone.snippet}}</p>-->
+            <a href="#/jedi/{{match.stackId}}">{{match.firstName}} {{match.lastName}}</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
