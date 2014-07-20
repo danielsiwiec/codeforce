@@ -1,0 +1,47 @@
+/*COLORS
+
+Dark Blue: #262936;
+Blue: #767A86;
+Yellow: #EEC77C;
+Grey: #A6A8AB;
+White: #FFFFFF;
+Black #000000
+
+*/
+
+* {margin:0;padding:0;}
+
+body{
+    font-family:  HelveticaNeueLTPro-Condensed;
+    background-color: #767A86
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 100
+}
+
+#form-box {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    border-color: #EEC77C;
+    margin-right: auto;
+    margin-top: 5px;
+    padding-left: 5px;
+    vertical-align: top;
+    text-align: left;
+}
+
+#form-box .lg {
+    height: 200px;
+}
+
+#form-box .sm {
+    height: 60px;
+}
