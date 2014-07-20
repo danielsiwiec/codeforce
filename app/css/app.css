@@ -4,7 +4,6 @@ body {
   padding-top: 20px;
 }
 
-
 .phone-images {
   background-color: white;
   width: 450px;
@@ -97,3 +96,122 @@ ul.specs dt {
 h1 {
   border-bottom: 1px solid gray;
 }
+
+/* NEW CSS
+COLORS
+Dark Blue: #262936;
+Blue: #767A86;
+Yellow: #EEC77C;
+Grey: #A6A8AB;
+White: #FFFFFF;
+Black #000000
+*/
+
+body{
+font-family:  HelveticaNeueLTPro-Condensed;
+font-size: 1em;
+color: #EEC77C;
+}
+
+.core-header-panel {
+left:0px;
+top:0px;
+width: 320px;
+height: 518px;
+position: absolute;
+background-color: #767A86;
+}
+
+.core-header-panel-border {
+height: 3px;
+width: 100%;
+position: absolute;
+background-color: #FFFFFF;
+border: 0.5px thick #EEC77C;
+box-shadow: 0px 1px 0.5px #3A2D1A;
+}
+
+.core-toolbar {
+height: 30px;
+width: 100%;
+color: rgb(255, 255, 255);
+background-color: #262936;
+display: block;
+padding: px;
+}
+.form-input {
+padding-left: 6%;
+padding-right: 6%;
+margin: 6%;
+width: 88%;
+background-color: rgb(255, 255, 255);
+display: block;
+}
+.core-drawer-panel {
+left: 0px;
+top: 0px;
+position: absolute;
+}
+
+.form-group{
+padding-top:6%;
+}
+
+.form-label{
+padding-left: 6%;
+padding-right: 6%;
+width: 88%;
+}
+
+.form-input{
+display: block;
+width: 88%;
+border-radius: 12px;
+border-color: #EEC77C;
+padding-left: 6%;
+padding-right: 6%;
+padding-top: 0%;
+vertical-align: top;
+text-align: left;
+}
+
+#title{
+font-size: 16px;
+font-weight: 100;
+}
+#bottom{
+padding-left: 6%;
+padding-right: 6%;
+width: 88%;
+}
+#input-skills{
+height:60px;
+}
+#input-desc{
+height:200px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    float: left;
+    border: 1px solid #000;
+    border-bottom-width: 0;
+    margin: 3px 3px 0px 3px;
+    padding: 5px 5px 0px 5px;
+    background-color: #CCC;
+    color: #696969;
+}
+#mainView {
+    border: 1px solid black;
+    clear: both;
+    padding: 0 1em;
+}
+.active {
+    background-color: #FFF;
+    color: #000;
+}
+

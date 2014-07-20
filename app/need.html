@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-10">
+            <!--Body content-->
+			<div class="core-header-panel">
+            <div class="core-toolbar" id="core_toolbar">
+				<div id="menu-icon"></div>
+				<div id="title">CodeForce</div>
+			</div>
+			<form class="simple-form">
+				<div class="form-group">
+					<div class="row form-element">
+						<label class="form-label" id="label-desc" for="input-desc" ng-model="need.description">I am looking for help with...</label>
+						<textarea placeholder="140 characters or less" class="large-4 medium-4 form-input" id="input-desc" ng-model="need.description" ></textarea>
+					</div>
+					<div class="row form-element">
+						<label class="form-label" id="label-skills" for="input-skills" ng-model="need.skills">My CodeJedi should be skilled at...</label>
+						<textarea placeholder="Python, iOS, Android, etc" class="large-4 medium-4 form-input" id="input-skills" ng-model="need.skills"></textarea>
+					</div>
+					<div class="small-6 large-centered columns">
+						<ul class="button-group round">
+							<button class="small alert button" ng-click="unpaid()">HEART</button>
+							<button class="small alert button" ng-click="paid()">MONEY</button>
+						</ul>
+					</div>
+				</div>
+			</form>
+			</div>
+        </div>
+    </div>
+</div>
