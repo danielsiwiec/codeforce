@@ -108,8 +108,13 @@ White: #FFFFFF;
 Black #000000
 */
 
+@font-face {
+  font-family:HelveticaNeueLTPro-Cn;
+  src: url("../app/fonts/HelveticaNeueLTPro-Cn.ttf");
+}
+
 body{
-font-family:  HelveticaNeueLTPro-Condensed;
+font-family:  HelveticaNeueLTPro-Cn;
 font-size: 1em;
 color: #EEC77C;
 }
@@ -154,11 +159,12 @@ box-shadow: 0px 1px 0.5px #3A2D1A;
 
 .form-input {
 padding-left: 6%;
-padding-right: 6%;
+padding-top: 6%;
 margin: 6%;
 width: 88%;
 background-color: rgb(255, 255, 255);
 display: block;
+font-family: HelveticaNeueLTPro-Cn
 }
 .core-drawer-panel {
 left: 0px;
@@ -174,6 +180,7 @@ padding-top:6%;
 padding-left: 6%;
 padding-right: 6%;
 width: 88%;
+color: #EEC77C;
 }
 
 .form-input{
