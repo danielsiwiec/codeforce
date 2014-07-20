@@ -44,5 +44,8 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "scripts":{
+    "postload": "/node_modules/bower/bin/bower install"
+  },
   "main": "Gruntfile.js"
 }
