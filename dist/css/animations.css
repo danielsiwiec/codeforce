@@ -21,6 +21,11 @@ h1 {
     font-weight: 100;
 }
 
+h2 {
+    font-size: 14px;
+    font-weight: 100;
+}
+
 p {
     font-size: 12px;
     font-weight: 100
@@ -45,3 +50,4 @@ p {
 #form-box .sm {
     height: 60px;
 }
+

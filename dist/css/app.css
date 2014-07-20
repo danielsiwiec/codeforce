@@ -4,7 +4,6 @@ body {
   padding-top: 20px;
 }
 
-
 .phone-images {
   background-color: white;
   width: 450px;
@@ -98,6 +97,164 @@ h1 {
   border-bottom: 1px solid gray;
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> new css
+/* NEW CSS
+COLORS
+Dark Blue: #262936;
+Blue: #767A86;
+Yellow: #EEC77C;
+Grey: #A6A8AB;
+White: #FFFFFF;
+Black #000000
+*/
+
+body{
+font-family:  HelveticaNeueLTPro-Condensed;
+font-size: 1em;
+color: #EEC77C;
+}
+
+.core-header-panel {
+left:0px;
+top:0px;
+width: 320px;
+height: 518px;
+position: absolute;
+background-color: #767A86;
+}
+
+<<<<<<< HEAD
+
+.core-toolbar {
+height: 60px;
+width: 100%;
+color: #EEC77C;
+background-color: #767A86;
+display: block;
+padding: 0px;
+}
+
+#menu-icon {
+  height:40 px;
+  width: auto;
+  padding:4%;
+  float:left;
+}
+
+
+/*yellow drop shadow border for header */
+
+.core-toolbar-border {
+=======
+.core-header-panel-border {
+>>>>>>> new css
+height: 3px;
+width: 100%;
+position: absolute;
+background-color: #FFFFFF;
+border: 0.5px thick #EEC77C;
+box-shadow: 0px 1px 0.5px #3A2D1A;
+}
+
+<<<<<<< HEAD
+=======
+.core-toolbar {
+height: 30px;
+width: 100%;
+color: rgb(255, 255, 255);
+background-color: #262936;
+display: block;
+padding: px;
+}
+>>>>>>> new css
+.form-input {
+padding-left: 6%;
+padding-right: 6%;
+margin: 6%;
+width: 88%;
+background-color: rgb(255, 255, 255);
+display: block;
+}
+.core-drawer-panel {
+left: 0px;
+top: 0px;
+position: absolute;
+}
+
+.form-group{
+padding-top:6%;
+}
+
+.form-label{
+padding-left: 6%;
+padding-right: 6%;
+width: 88%;
+}
+
+.form-input{
+display: block;
+width: 88%;
+border-radius: 12px;
+border-color: #EEC77C;
+padding-left: 6%;
+padding-right: 6%;
+padding-top: 0%;
+vertical-align: top;
+text-align: left;
+}
+
+#title{
+<<<<<<< HEAD
+font-size: 20px;
+font-weight: 100;
+width: 70%;
+float:left;
+padding: 6% 4% 4% 4%;
+}
+
+=======
+font-size: 16px;
+font-weight: 100;
+}
+>>>>>>> new css
+#bottom{
+padding-left: 6%;
+padding-right: 6%;
+width: 88%;
+}
+#input-skills{
+height:60px;
+}
+#input-desc{
+height:200px;
+}
+<<<<<<< HEAD
+
+#heart-button {
+background-image: url("../img/heart-button.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: contain;
+border-radius: 10px;
+height: 50px; 
+width: 110px;
+border: none;
+}
+
+#dollar-button {
+background-image: url("../img/dollar-button.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: contain;
+border-radius: 10px;
+height: 50px;
+width: 110px;
+border: none;
+}
 
 ul {
     list-style: none;
