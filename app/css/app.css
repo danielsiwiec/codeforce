@@ -97,24 +97,8 @@ h1 {
   border-bottom: 1px solid gray;
 }
 
-<<<<<<< HEAD
-/* NEW CSS
-COLORS
-Dark Blue: #262936;
-Blue: #767A86;
-Yellow: #EEC77C;
-Grey: #A6A8AB;
-White: #FFFFFF;
-Black #000000
-*/
-
-@font-face {
-  font-family:HelveticaNeueLTPro-Cn;
-  src: url("../app/fonts/HelveticaNeueLTPro-Cn.ttf");
-}
-
 body{
-font-family:  HelveticaNeueLTPro-Cn;
+font-family:  HelveticaNeueLTPro-Condensed;
 font-size: 1em;
 color: #EEC77C;
 }
@@ -128,27 +112,7 @@ position: absolute;
 background-color: #767A86;
 }
 
-
-.core-toolbar {
-height: 60px;
-width: 100%;
-color: #EEC77C;
-background-color: #767A86;
-display: block;
-padding: 0px;
-}
-
-#menu-icon {
-  height:40 px;
-  width: auto;
-  padding:4%;
-  float:left;
-}
-
-
-/*yellow drop shadow border for header */
-
-.core-toolbar-border {
+.core-header-panel-border {
 height: 3px;
 width: 100%;
 position: absolute;
@@ -157,14 +121,21 @@ border: 0.5px thick #EEC77C;
 box-shadow: 0px 1px 0.5px #3A2D1A;
 }
 
+.core-toolbar {
+height: 30px;
+width: 100%;
+color: rgb(255, 255, 255);
+background-color: #262936;
+display: block;
+padding: px;
+}
 .form-input {
 padding-left: 6%;
-padding-top: 6%;
+padding-right: 6%;
 margin: 6%;
 width: 88%;
 background-color: rgb(255, 255, 255);
 display: block;
-font-family: HelveticaNeueLTPro-Cn
 }
 .core-drawer-panel {
 left: 0px;
@@ -180,7 +151,6 @@ padding-top:6%;
 padding-left: 6%;
 padding-right: 6%;
 width: 88%;
-color: #EEC77C;
 }
 
 .form-input{
@@ -196,13 +166,9 @@ text-align: left;
 }
 
 #title{
-font-size: 20px;
+font-size: 16px;
 font-weight: 100;
-width: 70%;
-float:left;
-padding: 6% 4% 4% 4%;
 }
-
 #bottom{
 padding-left: 6%;
 padding-right: 6%;
@@ -214,30 +180,6 @@ height:60px;
 #input-desc{
 height:200px;
 }
-
-#heart-button {
-background-image: url("../img/heart-button.png");
-background-repeat: no-repeat;
-background-position: 50% 50%;
-background-size: contain;
-border-radius: 10px;
-height: 50px; 
-width: 110px;
-border: none;
-}
-
-#dollar-button {
-background-image: url("../img/dollar-button.png");
-background-repeat: no-repeat;
-background-position: 50% 50%;
-background-size: contain;
-border-radius: 10px;
-height: 50px;
-width: 110px;
-border: none;
-}
-
-/*
 
 ul {
     list-style: none;
@@ -261,7 +203,4 @@ li {
 .active {
     background-color: #FFF;
     color: #000;
-<<<<<<< HEAD
 }
-
-*/
