@@ -22,8 +22,7 @@ codeforceApp.config(['$routeProvider',
                 templateUrl: 'partials/needMatches.html',
                 controller: 'NeedMatchesController',
                 title: 'List of matches'
-            }).
-            when('/jedi/:stackId', {
+            }).when('/jedi/:stackId', {
                 templateUrl: 'partials/jedi-detail.html',
                 controller: 'JediDetailController',
                 title: 'Jedi\'s details'

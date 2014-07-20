@@ -33,3 +33,23 @@ appControllers.controller('PhoneDetailCtrl', ['$scope', '$routeParams', 'Phone',
             $scope.mainImageUrl = imageUrl;
         }
     }]);
+
+appControllers.controller('TabsCtrl', ['$scope', function ($scope) {
+    $scope.tabs = [{
+        title: 'List',
+        url: 'matchesList.html'
+    }, {
+        title: 'Map',
+        url: 'matchesMap.html'
+    }];
+
+    $scope.currentTab = 'matchesList.html';
+
+    $scope.onClickTab = function (tab) {
+        $scope.currentTab = tab.url;
+    }
+
+    $scope.isActiveTab = function(tabUrl) {
+        return tabUrl == $scope.currentTab;
+    }
+}]);
